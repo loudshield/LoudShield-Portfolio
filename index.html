@@ -1,153 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>LoudDev | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="navbar">
-    <div class="container nav-content">
-        <span class="logo">Loud Shield</span>
-        <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">
-    🌙
-</button>
-
-    </div>
-</header>
-
 <section class="hero fade">
     <div class="container hero-content">
-        <img src="assets/profile.jpg" alt="Foto de perfil" class="profile-pic">
+
+        <img src="assets/profile.jpg" class="profile-pic">
+
         <h1>LoudShield</h1>
-        <p>Developer MC & Programming</p>
-        <div class="divider"></div>
+        <p class="subtitle">Developer MC & Programming</p>
+
+        <nav class="hero-nav">
+            <a href="about.html">Sobre mí</a>
+            <a href="servers.html">Servidores</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+
     </div>
 </section>
-
 <section class="section fade">
     <div class="container">
-        <h2>Sobre mí</h2>
+        <div class="content-card animate-card">
+        <h2>Bienvenido</h2>
         <p class="section-text">
-            Desarrollador especializado en servidores de Minecraft, creación de mods con Fabric,
-            automatización en Python y desarrollo backend orientado a rendimiento y seguridad.
+            Hola, soy LoudShield, Developer enfocado en Minecraft, me dedico
+            a hacer de cada servidor un lugar seguro y divertido para todos. 
+            Contactame para trabajar en tu servidor mediante mis contactos.
+
         </p>
     </div>
 </section>
 
-<section class="section fade">
-    <div class="container">
-        <h2>Especialidades</h2>
 
-        <div class="specialties-grid">
-            <div class="specialty-card">
-                <h3>Login Security</h3>
-                <p>Sistemas de login seguros con UUID, IP y control de sesiones.</p>
-            </div>
-
-            <div class="specialty-card">
-                <h3>Anti-Bot</h3>
-                <p>Protección avanzada contra bots, spam y ataques masivos.</p>
-            </div>
-
-            <div class="specialty-card">
-                <h3>BungeeCord & Velocity</h3>
-                <p>Balanceo, redirección y seguridad entre proxies.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section fade">
-    <div class="container">
-        <h2>Servidores</h2>
-
-        <div class="servers-grid">
-            <div class="server-card">
-                <img src="assets/skycloud.png" alt="SkyCloud">
-                <p><strong>SkyCloud (2025-2026)</strong><br>Puesto: Developer & Manager</p>
-            </div>
-
-            <div class="server-card">
-                <img src="assets/lyramc.png" alt="LyraMC">
-                <p><strong>LyraMC (2025)</strong><br>Puesto: Developer</p>
-            </div>
-
-            <div class="server-card">
-                <img src="assets/mineloop.png" alt="MineLoop">
-                <p><strong>MineLoop (2025)</strong><br>Puesto: Developer</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="section fade">
-    <div class="container">
-        <h2 class="section-title">Features & Skills</h2>
-
-        <div class="skills-grid">
- <div class="skills-grid">
-
-    <div class="skill-card">
-        <div class="skill-header">
-            <img src="assets/icons/python.svg" alt="Python">
-            <h3>Python</h3>
-        </div>
-        <p>APIs, herramientas, automatizaciones y procesamiento de bases de datos.</p>
-    </div>
-
-    <div class="skill-card">
-        <div class="skill-header">
-            <img src="assets/icons/openjdk.svg" alt="Java">
-            <h3>Java</h3>
-        </div>
-        <p>Lenguaje principal para plugins y clientes Spigot y BungeeCord.</p>
-    </div>
-
-    <div class="skill-card">
-        <div class="skill-header">
-            <img src="assets/icons/sharp.svg" alt="C#">
-            <h3>C#</h3>
-        </div>
-        <p>Herramientas con interfaces gráficas orientadas a ciberseguridad.</p>
-    </div>
-
-    <div class="skill-card">
-        <div class="skill-header">
-            <img src="assets/icons/javascript.svg" alt="JavaScript">
-            <h3>JavaScript</h3>
-        </div>
-        <p>Front-end y bots de Discord personalizados.</p>
-    </div>
-
-    <div class="skill-card">
-        <div class="skill-header">
-            <img src="assets/icons/mysql.svg" alt="MySQL">
-            <h3>MySQL</h3>
-        </div>
-        <p>Optimización de datos, consultas seguras y sincronización en red.</p>
-    </div>
-
-</div>
-
-</section>
-
-
-<section class="section fade">
-    <div class="container">
-        <h2>Redes Sociales</h2>
-        <div class="contact">
-            <p>GitHub: <span>github.com/loudshield</span></p>
-            <p>Discord: <span>cryptpass#0000</span></p>
-        </div>
-    </div>
-</section>
 
 <script src="script.js"></script>
 </body>
 </html>
-
-
